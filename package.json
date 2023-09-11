@@ -1,0 +1,14 @@
+{
+  "name": "tapcheffunctions",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "mssql": "^10.0.0",
+    "mysql": "^2.18.1",
+    "node18": "^1.0.0"
+  }
+}
