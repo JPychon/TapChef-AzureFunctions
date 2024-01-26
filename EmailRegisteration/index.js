@@ -16,8 +16,8 @@ module.exports = async function (context, req) {
     const config = {
         server: process.env.DB_HOST || 'tapchef-promo-server.database.windows.net',
         port: process.env.DB_PORT || 1433,
-        user: process.env.DB_USER || 'CloudSAa67f9a3d',
-        password: process.env.DB_PASSWORD || 'TapChefPassword%!3',
+        user: process.env.DB_USER || 'User',
+        password: process.env.DB_PASSWORD || 'Password',
         database: process.env.DB_NAME || 'TapChefPromo',
         options: {
             encrypt: true // Use this if you're on Windows Azure
